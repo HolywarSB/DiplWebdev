@@ -21,8 +21,8 @@
 .header {
     background-color: #f0eeee;
     background-image: url(../img/headerbg2.png);
-    background-size: 65%;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .header_cont {
@@ -402,6 +402,7 @@
     line-height: 79.7px;
     letter-spacing: 0.3px;
     line-height: 28px;
+    margin-top: 95px;
 }
 
 .project_text {
@@ -412,6 +413,8 @@
     letter-spacing: 0.08px;
     color: #787878;
     line-height: 22px;
+    margin-top: 32px;
+    margin-bottom: 35px;
 }
 
 .Form_position {
@@ -432,18 +435,18 @@
 }
 
 #Your_name_pos {
-    width: 90%;
-    margin-left: 12%;
+    width: 85%;
+    margin-left: 15%;
 }
 
 #Your_email_pos {
-    width: 90%;
-    margin-right: 12%;
+    width: 85%;
+    margin-right: 15%;
 }
 
 #Your_titl_pos {
-    margin-left: 6%;
-    width: 89%;
+    margin-left: 7%;
+    width: 86%;
 }
 
 .Form_text_com {
@@ -458,8 +461,100 @@
 }
 
 #Your_comment_pos {
-    margin-left: 6%;
-    width: 89%;
+    margin-left: 7%;
+    width: 86%;
     
 }
+
+#Form_button {
+    padding: 19px 33px;
+}
+
 /*//////////////////////////////////////(PROJECT_END)///////////////////////////////////////////////////*/
+
+
+/*//////////////////////////////////////(FOOTER_START)///////////////////////////////////////////////////*/
+.footer {
+    background-color: #141414;
+}
+
+
+.footer_pos_1{
+    margin-top: 15%;
+}
+
+.footer_pos_2 {
+    margin-left: 30%;
+    margin-top: 28%;
+    margin-bottom: 40%;
+}
+
+.footer_pos_3 {
+    margin-left: 45%;
+    margin-top: 40%;
+}
+
+.footer_pos_4 {
+    margin-top: 80%;
+}
+
+.footer_pos_5 {
+    margin-left: 45%;
+    margin-top: 40%;
+}
+
+.footer_style_1 {
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 68.31px;
+    letter-spacing: 0.18px;
+}
+
+.footer_style_11 {
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.77px;
+    letter-spacing: 0.07px;
+}
+
+.footer_style_2  a{
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    line-height: 22.77px;;
+    font-weight: 400;
+    letter-spacing: 0.07px;
+}
+
+.footer_style_3 a {
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.77px;
+    letter-spacing: 0.07px;
+}
+
+.footer_style_4 a {
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.77px;
+    letter-spacing: 0.07px;
+}
+
+.footer_style_5 a {
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.77px;
+    letter-spacing: 0.07px;
+}
+
+/*//////////////////////////////////////(FOOTER_END)///////////////////////////////////////////////////*/
