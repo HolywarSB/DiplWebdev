@@ -388,3 +388,45 @@
 
 
 /*//////////////////////////////////////(CLIENTS_END)///////////////////////////////////////////////////*/
+
+/*//////////////////////////////////////(PROJECT_START)///////////////////////////////////////////////////*/
+.need_a_project{
+    background-color: #f5f5f5;
+}
+
+.project_h2 {
+    color: #1d1d1d;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 79.7px;
+    letter-spacing: 0.3px;
+    line-height: 28px;
+}
+
+.project_text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.77px;
+    letter-spacing: 0.08px;
+    color: #787878;
+    line-height: 22px;
+}
+
+.Form_position {
+    margin-bottom: 27px;
+}
+
+.Form_text {
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.77px;
+    letter-spacing: 0.07px;
+    border: none;
+    border-radius: 0px;
+}
+
+/*//////////////////////////////////////(PROJECT_END)///////////////////////////////////////////////////*/
