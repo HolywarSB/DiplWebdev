@@ -270,6 +270,7 @@
 
 .work_center{
     background-color: #dddddd;
+
 }
 
 .con_work_custom {
@@ -287,10 +288,14 @@
     box-shadow: -7px -8px 6px -3px #a8a4a4
 }
 
+#margin_bottom_solo{
+    margin-bottom: 20px;
+}
 .card_custom {
     border-radius: 0px;
     border: none;
 }
+
 
 .work_but_custom button {
     color: #8e8e8e;
@@ -327,27 +332,48 @@
     padding: 0px;
 }
 
+/*------------------------------------Попытка реализации через css--------------------------*/
 .work_bottom_section a {
     background-image: url('../img/work_13.jpg');
     background-repeat: no-repeat;
     display: block;
-    width: 100%;
+    width: 90%;
     height: 285px;
-    background-size: contain;
+    background-size: 100% 285px;
+    position: absolute; /*---мешает отображению в секции ---*/
+    z-index: 3;
+    border-radius: 30px;
+    box-shadow: -7px -8px 6px -3px #a8a4a4;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+.work_bottom_section_Look a {
+    background-image: url('../img/work_hover_look.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 90%;
+    height: 285px;
+    background-size: 100% 285px;
+    position: absolute; /*---мешает отображению в секции ---*/
+    z-index: 2;
+    border-radius: 30px;
+    box-shadow: -7px -8px 6px -3px #a8a4a4;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
 }
 
 .work_bottom_section a:hover {
-    background-image: url('../img/work_hover_look.png');
-    opacity: 0.5;
+    z-index: 0;
 }
 
-.scale {
-    transition: 1s; /* Время эффекта */
-   }
-
-.scale:hover {
-    transform: scale(1.2); /* Увеличиваем масштаб */
+.work_bottom_section_Look a:hover {
+    z-index: 999999;
 }
+/*------------------------------------Попытка реализации через css--------------------------*/
+
 /*//////////////////////////////////////(WORK_END)///////////////////////////////////////////////////*/
 
 /*//////////////////////////////////////(WORKPROCESS_START)///////////////////////////////////////////////////*/
