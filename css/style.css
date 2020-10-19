@@ -216,7 +216,7 @@
 .skillsRT {
     background-image: url(../img/macbook2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 
