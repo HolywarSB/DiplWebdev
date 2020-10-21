@@ -266,11 +266,12 @@
 
 .work_top{
     background-color: #dddddd;
+    min-height: 328px; /*для работы плиточек*/
 }
 
 .work_center{
     background-color: #dddddd;
-
+    min-height: 328px; /*для работы плиточек*/
 }
 
 .con_work_custom {
@@ -330,6 +331,7 @@
 .card_body_custom {
     background-color: rgb(252, 252, 252);
     padding: 0px;
+    min-height: 328px;
 }
 
 /*------------------------------------Попытка реализации через css--------------------------*/
@@ -371,6 +373,30 @@
 
 .work_bottom_section_Look a:hover {
     z-index: 999999;
+}
+
+#kinopoisk a{
+    background-image: url('../img/work_31.jpg');
+}
+
+#oriflame a{
+    background-image: url('../img/work_22.jpg');
+}
+
+#radiomayak a {
+    background-image: url('../img/work_34.jpg');
+}
+
+#color_romanuke a {
+    background-image: url('../img/work_14.jpg');
+}
+
+#unsplash a {
+    background-image: url('../img/work_11.png');
+}
+
+#wildberries a {
+    background-image: url('../img/work_21.jpg');
 }
 /*------------------------------------Попытка реализации через css--------------------------*/
 
@@ -549,6 +575,8 @@
     margin-bottom: 27px;
 }
 
+
+
 .Form_text {
     color: #787878;
     font-family: 'Nunito Sans', sans-serif;
@@ -687,5 +715,6 @@
     line-height: 22.77px;
     letter-spacing: 0.07px;
 }
+
 
 /*//////////////////////////////////////(FOOTER_END)///////////////////////////////////////////////////*/
